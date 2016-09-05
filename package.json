@@ -1,0 +1,33 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^2.1.2",
+    "loopback-boot": "^2.21.0",
+    "loopback-component-explorer": "^2.5.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^1.0.1",
+    "loopback-datasource-juggler": "^2.39.0",
+    "loopback-connector-mongodb": "^1.15.2",
+    "loopback": "^3.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-loopback": "^4.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "test-app"
+}
