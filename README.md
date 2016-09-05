@@ -1,5 +1,7 @@
 This is a test project that demonstrates the idInjection problem I'm getting in boot/create-models.js
 
+Related to this issue https://github.com/strongloop/loopback-connector-mongodb/issues/282
+
 ```
 /Users/bachirelkhoury/Desktop/testBugLoopback/test-app/node_modules/mongodb/lib/utils.js:98
     process.nextTick(function() { throw err; });
